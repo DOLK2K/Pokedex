@@ -98,8 +98,8 @@
 
         img {
             height: 250px;
-            animation: subirDescer 3s infinite alternate;   
-        
+            animation: subirDescer 3s infinite alternate;
+
         }
 
         @keyframes subirDescer {
@@ -128,47 +128,50 @@
 }
 
 @media screen and (max-width:565px) {
-        .header {
-            .element1 {
-            
-                h1 {
-                    font-size: 27px;
-                }
+
+    .pokedex {
+        background-color: #ffff;
+    }
+
+    .header {
+        .element1 {
+
+            h1 {
+                font-size: 27px;
             }
         }
-        
-    
+    }
+
+
     .container-pokemon {
         .map-pokemon {
             width: 140px;
-            
+
             img {
                 height: 180px;
             }
-            
+
 
             .text-pokemon {
                 font-size: 15px;
             }
+
             .type-pokemon {
                 font-size: 12.5px;
             }
         }
     }
-       
-    
+
+
 }
 
 
 @media screen and (max-width:386px) {
-    
-    .pokedex {
-        background-color: #ffff;
-    }
-   
+
+
     .header {
         .element1 {
-        
+
             h1 {
                 font-size: 15px;
             }
@@ -187,17 +190,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
