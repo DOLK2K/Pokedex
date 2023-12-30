@@ -140,13 +140,18 @@
     
     .container-pokemon {
         .map-pokemon {
-            width: 185.2px;
+            width: 140px;
+            
+            img {
+                height: 180px;
+            }
+            
 
             .text-pokemon {
-                font-size: 19px;
+                font-size: 15px;
             }
             .type-pokemon {
-                font-size: 17px;
+                font-size: 12.5px;
             }
         }
     }
