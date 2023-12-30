@@ -70,7 +70,7 @@
         }
 
         input:hover {
-            width: 190px;
+            width: 170px;
         }
 
 
@@ -155,7 +155,7 @@
 }
 
 
-@media screen and (max-width:386Px) {
+@media screen and (max-width:386px) {
     .header {
         .element1 {
         
@@ -168,6 +168,10 @@
                 input {
                     padding: 5px;
                     width: 1rem;
+                }
+
+                .input:hover {
+                    width: 10px;
                 }
             }
         }
